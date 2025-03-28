@@ -163,21 +163,21 @@ const Accordiona = () => {
     {
       id: 1,
       title: "Railway Projects",
-      image: "/public/images/R7.png",
+      image: "/images/R7.png",
       subItems: [
         {
           name: "Railway Electrification",
-          image: "/public/images/Ga2.jpg",
+          image: "/images/Ga2.jpg",
           description: "Electrification of railway tracks enhances efficiency, reduces fuel dependency, and minimizes environmental impact. It improves train acceleration, decreases maintenance costs, and provides a sustainable transportation solution. Modern electrification systems use regenerative braking, which recycles energy back into the grid. This transition reduces carbon emissions and ensures long-term cost savings. Electrified railways also contribute to increased operational reliability and better scheduling. Governments worldwide are investing in electrification to modernize railway infrastructure. The implementation involves high-voltage overhead lines and substation upgrades. Safety measures are critical, including insulation and grounding systems. Continuous monitoring and predictive maintenance help prevent failures. Overall, electrification is a step toward a greener and more efficient railway network."
         },
         {
           name: "Railway Track",
-          image: "/public/images/Ga3.jpg",
+          image: "/images/Ga3.jpg",
           description: "Railway track construction is crucial for safe and efficient transportation. It involves laying ballast, sleepers, and rails to form a stable structure. Proper alignment and leveling ensure smooth train movement and prevent derailments. Advanced materials like concrete sleepers and welded rails enhance durability. Regular inspections and maintenance prevent wear and tear, reducing operational risks. High-speed rail networks require precision engineering for optimal performance. Track electrification and signaling systems further improve safety and efficiency. Innovations like magnetic levitation reduce friction and increase speed. Environmental considerations include minimizing land disruption and noise pollution. Sustainable practices, like recycling old rails, support eco-friendly railway development."
         },
         {
           name: "Railway Water Management",
-          image: "/public/images/H1.png",
+          image: "/images/H1.png",
           description: "Railway water management ensures sustainable water use and flood prevention. Drainage systems prevent water accumulation on tracks, reducing erosion risks. Efficient water recycling minimizes wastage and supports environmental sustainability. Advanced filtration systems ensure clean water supply for railway stations. Proper sewage treatment prevents contamination and protects local ecosystems. Smart monitoring systems detect leaks and optimize water usage. Climate change resilience planning includes flood-resistant infrastructure. Water conservation initiatives promote responsible consumption among railway staff. Green roofing and rainwater harvesting further enhance sustainability. Integrated water management improves railway efficiency and environmental impact."
         }
       ]
@@ -185,21 +185,21 @@ const Accordiona = () => {
     {
       id: 2,
       title: "Network Telecom Projects",
-      image: "/public/images/R3.png",
+      image: "/images/R3.png",
       subItems: [
         {
           name: "5G Network Deployment",
-          image: "/public/images/Ga4.jpg",
+          image: "/images/Ga4.jpg",
           description: "5G network deployment revolutionizes telecommunications with ultra-fast speeds and low latency. It enables seamless streaming, gaming, and real-time communication. Enhanced bandwidth supports the Internet of Things (IoT) and smart city applications. Small cell technology boosts signal strength in dense urban areas. Network slicing allows dedicated bandwidth for critical applications. Advanced security measures protect against cyber threats. Edge computing reduces data travel time for instant processing. Infrastructure expansion involves installing new base stations and fiber-optic connections. 5G enhances healthcare, transportation, and industrial automation. Continuous innovation ensures future-ready connectivity solutions."
         },
         {
           name: "Fiber Optic Infrastructure",
-          image: "/public/images/Ga5.jpg",
+          image: "/images/Ga5.jpg",
           description: "Fiber optic infrastructure provides high-speed, reliable internet connectivity. It transmits data using light signals, reducing signal degradation over long distances. Fiber networks support growing data demands for businesses and households. Advanced materials and installation techniques improve durability and efficiency. Optical fibers offer superior bandwidth compared to traditional copper cables. Deployment requires trenching, cabling, and network configuration. Future-proofing involves upgrading to higher-capacity fiber technologies. Secure connections prevent data breaches and cyber threats. Governments and private sectors invest in expanding fiber networks. The rise of cloud computing and streaming services increases fiber optic adoption."
         },
         {
           name: "Satellite Communication",
-          image: "/public/images/Ga6.jpg",
+          image: "/images/Ga6.jpg",
           description: "Satellite communication plays a crucial role in global connectivity. It enables internet access in remote locations where traditional infrastructure is unavailable. Weather forecasting, GPS navigation, and military communications rely on satellite networks. High-throughput satellites improve data transmission rates and reduce latency. Innovations in low-earth orbit satellites enhance real-time communication. Satellite internet services are expanding due to increased demand for reliable connectivity. Telemedicine benefits from satellite networks, allowing remote diagnosis and treatment. Future advancements include AI-driven satellite operations and inter-satellite links. Sustainable satellite launches focus on reducing space debris and extending satellite lifespans. Governments and private companies collaborate to enhance global communication infrastructure."
         }
       ]
@@ -207,21 +207,21 @@ const Accordiona = () => {
     {
       id: 3,
       title: "Water Projects",
-      image: "/public/images/s3.png",
+      image: "/images/s3.png",
       subItems: [
         {
           name: "Desalination Plants",
-          image: "/public/images/Ga8.jpg",
+          image: "/images/Ga8.jpg",
           description: "Desalination plants convert seawater into freshwater to address water scarcity. They use reverse osmosis and distillation processes to remove salt and impurities. Large-scale desalination plants supply drinking water to millions of people. Energy-efficient technologies improve cost-effectiveness and sustainability. Government initiatives promote desalination as an alternative water source. Environmental concerns include brine disposal and marine life impact. Innovations focus on solar-powered desalination systems. Research continues to enhance efficiency and reduce operational costs. Coastal regions benefit the most from desalination technology. Future advancements aim to make desalination more affordable and widely accessible."
         },
         {
           name: "Rainwater Harvesting",
-          image: "/public/images/Ga9.jpg",
+          image: "/images/Ga9.jpg",
           description: "Rainwater harvesting captures and stores rainwater for future use. It reduces dependence on groundwater and municipal water supplies. Collection systems include rooftop catchments and underground storage tanks. Filtration and purification improve water quality for domestic use. Rainwater harvesting mitigates urban flooding by reducing runoff. Governments incentivize rainwater harvesting for sustainable water management. Schools and public buildings adopt harvesting systems for conservation. Community projects encourage rainwater reuse for irrigation. Smart sensors optimize water collection and distribution. Expanding rainwater harvesting can address global water challenges."
         },
         {
           name: "Wastewater Treatment",
-          image: "/public/images/g11.jpg",
+          image: "/images/g11.jpg",
           description: "Wastewater treatment removes contaminants to produce reusable water. Primary treatment removes large solids through sedimentation. Secondary treatment uses biological processes to break down organic matter. Tertiary treatment enhances water quality for safe discharge. Advanced treatment includes membrane filtration and chemical disinfection. Industrial facilities implement wastewater recycling to reduce pollution. Smart monitoring improves treatment efficiency and reduces waste. Governments enforce regulations to ensure water quality standards. Public awareness campaigns promote responsible wastewater management. Sustainable wastewater solutions contribute to water conservation efforts."
         }
       ]
@@ -233,17 +233,17 @@ const Accordiona = () => {
       subItems: [
         {
           name: "Pre engineered structures",
-          image: "/public/images/s3.png",
+          image: "/images/s3.png",
           description: "Desalination plants convert seawater into freshwater to address water scarcity. They use reverse osmosis and distillation processes to remove salt and impurities. Large-scale desalination plants supply drinking water to millions of people. Energy-efficient technologies improve cost-effectiveness and sustainability. Government initiatives promote desalination as an alternative water source. Environmental concerns include brine disposal and marine life impact. Innovations focus on solar-powered desalination systems. Research continues to enhance efficiency and reduce operational costs. Coastal regions benefit the most from desalination technology. Future advancements aim to make desalination more affordable and widely accessible."
         },
         {
           name: "Road Construction",
-          image: "/public/images/s4.png",
+          image: "/images/s4.png",
           description: "Rainwater harvesting captures and stores rainwater for future use. It reduces dependence on groundwater and municipal water supplies. Collection systems include rooftop catchments and underground storage tanks. Filtration and purification improve water quality for domestic use. Rainwater harvesting mitigates urban flooding by reducing runoff. Governments incentivize rainwater harvesting for sustainable water management. Schools and public buildings adopt harvesting systems for conservation. Community projects encourage rainwater reuse for irrigation. Smart sensors optimize water collection and distribution. Expanding rainwater harvesting can address global water challenges."
         },
         {
           name: "Bridge Construction",
-          image: "/public/images/s5.png",
+          image: "/images/s5.png",
           description: "Wastewater treatment removes contaminants to produce reusable water. Primary treatment removes large solids through sedimentation. Secondary treatment uses biological processes to break down organic matter. Tertiary treatment enhances water quality for safe discharge. Advanced treatment includes membrane filtration and chemical disinfection. Industrial facilities implement wastewater recycling to reduce pollution. Smart monitoring improves treatment efficiency and reduces waste. Governments enforce regulations to ensure water quality standards. Public awareness campaigns promote responsible wastewater management. Sustainable wastewater solutions contribute to water conservation efforts."
         },
         
