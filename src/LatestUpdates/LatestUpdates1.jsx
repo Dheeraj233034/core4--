@@ -122,15 +122,47 @@
 
 // export default LatestUpdates1;
 
-import React, { useEffect } from "react";
-import { posts } from "../Data/Posts"; // Import posts from data/posts.js
+// import React, { useEffect } from "react";
+// import { posts } from "../Data/Posts"; // Import posts from data/posts.js
+// import PostCard from "./PostCard"; // Ensure it's correctly referenced
+
+
+// const LatestUpdates1 = () => {
+//   useEffect(() =>{
+//     window.scrollTo(0,0)
+//   },[]);
+//   return (
+//     <div className="min-h-screen bg-gray-50 px-4 sm:px-6 py-6">
+//       <div className="max-w-5xl mx-auto">
+//         {/* Title Section */}
+//         <div className="text-center mb-8 sm:mb-10">
+//           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">Company Updates</h1>
+//         </div>
+
+//         {/* Posts Section */}
+//         <div className="space-y-6 sm:space-y-8">
+//           {posts.map((post) => (
+//             <PostCard key={post.id} post={post} />
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default LatestUpdates1;
+
+import React, { useEffect, useState } from "react";
+import { posts } from "../Data/Posts"; // Import posts data
 import PostCard from "./PostCard"; // Ensure it's correctly referenced
 
-
 const LatestUpdates1 = () => {
-  useEffect(() =>{
-    window.scrollTo(0,0)
-  },[]);
+  const [selectedPost, setSelectedPost] = useState(null); // State to track selected post
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-gray-50 px-4 sm:px-6 py-6">
       <div className="max-w-5xl mx-auto">
@@ -142,13 +174,46 @@ const LatestUpdates1 = () => {
         {/* Posts Section */}
         <div className="space-y-6 sm:space-y-8">
           {posts.map((post) => (
-            <PostCard key={post.id} post={post} />
+            <div key={post.id} onClick={() => setSelectedPost(post)}>
+              <PostCard post={post} />
+            </div>
           ))}
         </div>
       </div>
+
+      {/* Modal (Integrated Inside LatestUpdates1) */}
+      {selectedPost && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+          <div className="bg-white p-6 rounded-lg shadow-lg w-11/12 max-w-lg relative">
+            {/* Close Button */}
+            <button
+              className="absolute top-3 right-3 text-gray-500 hover:text-gray-700 text-xl"
+              onClick={() => setSelectedPost(null)}
+            >
+              ✖
+            </button>
+
+            {/* Image */}
+            {selectedPost.image && (
+              <img
+                src={selectedPost.image}
+                alt={selectedPost.title}
+                className="w-full h-64 object-cover rounded-lg mb-4"
+              />
+            )}
+
+            {/* Title */}
+            <h2 className="text-xl font-bold text-gray-800 mb-2">{selectedPost.title}</h2>
+
+            {/* Description */}
+            <p className="text-gray-600">{selectedPost.description}</p>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
 
 export default LatestUpdates1;
+
 
